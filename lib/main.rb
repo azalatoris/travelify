@@ -11,7 +11,6 @@ USERS = [
 ].freeze
 
 @users = USERS.dup
-# SignUp.new('Algirdas Zalatoris', 'azalatori', 'a@z.com', "2password!", users).perform
 
 def main
   SignUp.welcome

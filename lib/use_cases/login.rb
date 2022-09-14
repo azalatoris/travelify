@@ -39,26 +39,3 @@ class Login
     log_in
   end
 end
-
-  # def password_attempts
-  #   counter = 0
-  #   until counter >= 4 do
-  #     puts "Wrong password. You have #{3 - counter} attempts remaining"
-  #     counter += 1
-  #     if counter == 3 then puts "Password limit exceeded."
-  #       break
-  #     end
-  #   end
-  # end
-
-  # def password_attempts_proposal
-  #   3.times do |i|
-  #     input = gets.chomp
-  #     if input == user.password
-  #       return
-  #     else
-  #       puts 'wrong password'
-  #     end
-  #   end
-  #   puts 'password limit'
-  # end
